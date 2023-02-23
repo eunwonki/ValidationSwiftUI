@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03A700E029A6EDA5007973C0 /* LoginFormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A700DF29A6EDA5007973C0 /* LoginFormError.swift */; };
 		6664931429A658C50037C03F /* LoginValidationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6664931329A658C50037C03F /* LoginValidationApp.swift */; };
 		6664931629A658C50037C03F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6664931529A658C50037C03F /* ContentView.swift */; };
 		6664931829A658C50037C03F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6664931729A658C50037C03F /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03A700DF29A6EDA5007973C0 /* LoginFormError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormError.swift; sourceTree = "<group>"; };
 		6664931029A658C50037C03F /* LoginValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6664931329A658C50037C03F /* LoginValidationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidationApp.swift; sourceTree = "<group>"; };
 		6664931529A658C50037C03F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03A700DE29A6ED8D007973C0 /* FormErrors */ = {
+			isa = PBXGroup;
+			children = (
+				03A700DF29A6EDA5007973C0 /* LoginFormError.swift */,
+			);
+			name = FormErrors;
+			sourceTree = "<group>";
+		};
 		6664930729A658C50037C03F = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +63,7 @@
 		6664931229A658C50037C03F /* LoginValidation */ = {
 			isa = PBXGroup;
 			children = (
+				03A700DE29A6ED8D007973C0 /* FormErrors */,
 				6664932129A65A130037C03F /* Extensions */,
 				6664931329A658C50037C03F /* LoginValidationApp.swift */,
 				6664931529A658C50037C03F /* ContentView.swift */,
@@ -150,6 +161,7 @@
 			files = (
 				6664931629A658C50037C03F /* ContentView.swift in Sources */,
 				6664932329A65A250037C03F /* String+Extension.swift in Sources */,
+				03A700E029A6EDA5007973C0 /* LoginFormError.swift in Sources */,
 				6664931429A658C50037C03F /* LoginValidationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
